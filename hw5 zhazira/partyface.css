@@ -1,0 +1,37 @@
+body {
+    position: relative;
+}
+#confetti {
+    animation: confetti 3s linear forwards alternate infinite;
+}
+@keyframes confetti {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+  #circles {
+    animation: circles 3s alternate-reverse infinite;
+  }
+  @keyframes circles {
+    0% {
+      transform: translateY(-40px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  #hat {
+    animation: hat 2s forwards alternate;
+  }
+@keyframes hat {   
+  0% {
+  transform: translateY(-40px);
+}
+100% {
+  transform: translateY(0px);
+}
+}
+  
